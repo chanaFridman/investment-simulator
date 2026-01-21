@@ -1,0 +1,51 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.portfolio {
+    margin-top: 2rem;
+}
+
+.portfolio h2, section h2 {
+    color: #374151;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #2563eb;
+    padding-left: 0.75rem;
+}
+
+.activeItem {
+    background: white;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.75rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    border: 1px solid #f3f4f6;
+    transition: transform 0.2s;
+}
+
+.activeItem:hover {
+    transform: translateX(4px);
+    border-left: 4px solid #2563eb;
+}
+
+.timer {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: #2563eb;
+    background-color: #eff6ff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}

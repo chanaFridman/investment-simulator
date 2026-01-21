@@ -1,0 +1,42 @@
+.investmentCard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stats {
+    flex: 1;
+    margin-bottom: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.stats p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.75rem 0;
+    color: #6b7280;
+    font-size: 0.95rem;
+    border-bottom: 1px dashed #e5e7eb;
+    padding-bottom: 0.25rem;
+}
+
+.stats span {
+    font-weight: 600;
+    color: #111827;
+}
+
+.profit {
+    color: #059669 !important; /* ירוק */
+    font-weight: 700 !important;
+}
+
+.actions {
+    margin-top: auto;
+}
+
+/* מוודא שהכפתור תופס את כל הרוחב */
+.fullWidth {
+    width: 100%;
+}

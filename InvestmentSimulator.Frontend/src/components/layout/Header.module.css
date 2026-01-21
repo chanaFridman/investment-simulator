@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: white; 
+    padding: 1rem 1.5rem; 
+    border-radius: 12px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #111827;
+    font-weight: 700;
+}
+
+.balanceContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ecfdf5;
+    color: #059669;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 1rem;
+    box-shadow: inset 0 0 0 1px rgba(5, 150, 105, 0.2);
+}
+
+.balanceLabel {
+    font-weight: 400;
+    color: #047857;
+    font-size: 0.875rem;
+}
